@@ -1,5 +1,6 @@
 *** Settings ***
 Resource    ../resources/desafio_cadastro.resource
+Suite Teardown    Close Browser    ALL
 
 *** Test Cases ***
 CT01 - Validar lista de cadastro com sucesso

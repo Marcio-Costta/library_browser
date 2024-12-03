@@ -1,5 +1,6 @@
 *** Settings ***
 Resource    ../resources/serverest_front.resource
+Suite Teardown    Close Browser    ALL
 
 *** Test Cases ***
 CT01 - Realizar cadastro com sucesso
