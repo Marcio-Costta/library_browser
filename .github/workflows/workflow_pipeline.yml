@@ -14,10 +14,10 @@ jobs:
         with: 
           python-version: '3.12.3'
 
-      - name: Install Node.js 19.1
+      - name: Install Node.js 21.6.0
         uses: actions/setup-node@v3
         with:
-          node-version: '19.1'
+          node-version: '21.6.0'
       
       - name: Install Requeriments
         run: 
