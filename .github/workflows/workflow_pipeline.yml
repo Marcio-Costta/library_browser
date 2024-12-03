@@ -9,10 +9,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       
-      - name: Install Python 3.12.3
+      - name: Install Python
         uses: actions/setup-python@v4
-        with: 
-          python-version: '3.12.3'
 
       - name: Install Node.js 19.1
         uses: actions/setup-node@v3
