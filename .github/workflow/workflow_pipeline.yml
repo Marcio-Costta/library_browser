@@ -20,7 +20,7 @@ jobs:
           node-version: '19.1'
       
       - name: Install Requeriments
-        run: |
+        run: 
           python -m pip install --upgrade pip
           pip install -U -r requirements.txt
           sudo npm install @playwright/test
@@ -28,6 +28,6 @@ jobs:
           rfbrowser init
       
       - name: Run Web Tests
-        run: |
+        run: 
           robot -d ./results -v HEADLESS:true -v BROWSER:chromium tests
        
