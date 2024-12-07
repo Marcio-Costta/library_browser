@@ -21,7 +21,7 @@ jobs:
       
       - name: Install Requeriments
         run: 
-          python -m pip install --upgrade pip
+          pyenv install 3.12.3
           pip install -U -r requirements.txt
           rfbrowser init
           
